@@ -1,0 +1,25 @@
+package com.pack;
+import java.util.ArrayList;
+import java.util.HashSet;
+import java.util.Iterator;
+
+		public class HashsetToArrayList {
+
+
+
+		   public static void main(String[] args) {
+		        HashSet<String> hashset = new HashSet<String>();
+		        hashset.add("mounika");
+		        hashset.add("rani");
+		        hashset.add("raghav");
+		        System.out.println(hashset);
+		        ArrayList<String> arraylist
+	            = new ArrayList<>(hashset);
+	 
+		        System.out.println(arraylist);   
+		        
+		    }
+
+
+
+		}
